@@ -28,11 +28,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ThemeData(
-    //       fontFamily: 'ResourceHanRoundedCN',
-    //       // colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFefc7bc),primary: const Color(0xFFc8c3b7)),
-    //       useMaterial3: true,
-    // ),
     var appTheme = Get.find<AppThemeController>();
     return Obx(() => GetMaterialApp(
         title: 'wan_flutter',
