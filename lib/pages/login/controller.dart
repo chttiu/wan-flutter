@@ -14,7 +14,7 @@ import 'package:wan_flutter/pages/register/index.dart';
 
 class LoginController extends GetxController {
   TextEditingController usernameController =
-      TextEditingController(text: 'mietl');
+      TextEditingController(text: 'chttiu');
 
   TextEditingController passwordController =
       TextEditingController(text: 't22140127L');
